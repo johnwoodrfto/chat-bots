@@ -1,0 +1,14 @@
+{
+  "name": "chat-bots",
+  "version": "1.0.0",
+  "description": "My first chat bot",
+  "main": "app.js",
+  "scripts": {
+    "start": ". ./.token && node app.js"
+  },
+  "author": "RFTO Dev",
+  "license": "MIT",
+  "dependencies": {
+    "@slack/client": "^3.5.4"
+  }
+}
